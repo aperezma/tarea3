@@ -1,0 +1,76 @@
+.container{
+    background-color: rgb(136, 136, 120);
+    border: rgb(31, 2, 44) solid 3px;
+    width: 900px;
+    margin-right:auto;
+	margin-left:auto;
+    height: auto;
+    overflow: hidden;
+}
+.container2{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 900px;
+}
+.box1{
+    width: 110px;
+    background-color: #720c0c;
+
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+}
+.box2{
+    width: 180px;
+    background-color: rgb(197, 60, 10);
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 300px;
+}
+.box3{
+    width: 350px;
+    background-color: rgb(150, 7, 50);
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 150px;
+}
+.box2:hover{
+    color: white;
+}
+.box3:hover{
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: aqua;
+    background-color: rgb(189, 8, 8);
+}
+
+@media(max-width:800px){
+    .container{
+        width: 100%;
+        height:auto;
+        text-align: center;
+    }
+    .container2{
+        width: 100%;
+        justify-content: center;
+    }
+    .box1{ 
+        width: 100%;
+        background-color: rgb(92, 83, 83);
+    }
+    .box2{
+        width: 100%;
+        height: auto;
+        background-color: rgb(53, 85, 64);
+    }
+    .box3{ 
+        width: 100%;
+        background-color: rgb(255, 91, 91);
+    }
+}
